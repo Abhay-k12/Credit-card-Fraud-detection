@@ -48,8 +48,8 @@ It involves data preprocessing, handling class imbalance through undersampling, 
 
 <br>
 
----
 
+---
 
 ## 📊 Exploratory Data Analysis
 
@@ -97,6 +97,22 @@ Identifying the most influential features in decision-making.
 
 ---
 
+## 📊 Visualizations & Insights
+
+Brief description of the visual insights generated from the dataset and model evaluation:
+
+| 📈 Image | 📝 Description |
+|:----------------------------|:----------------------------------------------------------------------------------------------------|
+| **`correlation_heatmap.png`** | A heatmap showing the correlation between all numerical features. Helps identify highly related features for better feature selection and model tuning. |
+| **`transaction_data_dustribution.png`** | A bar chart representing the original distribution of valid vs. fraud transactions — revealing a severe imbalance, which we handle using undersampling. |
+| **`transaction_percentage.png`** | A pie chart visualizing the proportion of fraud and valid transactions. Clearly showcases the minority nature of fraud cases. |
+| **`transaction_amount_distribution.png`** | Histograms comparing the transaction amount distribution for valid and fraud transactions, showing how amounts differ across transaction types. |
+| **`time_vs_amount.png`** | A scatter plot illustrating transaction amounts over time, differentiated by transaction class — useful for spotting timing patterns or anomalies. |
+| **`important_feature_to_DT.png`** | A bar chart displaying the most significant features impacting predictions in the Decision Tree model — offering interpretability into the model’s decision process. |
+
+<br>
+
+---
 ## 🧠 Models Applied
 
 | Model                  | Accuracy |
@@ -108,7 +124,6 @@ Identifying the most influential features in decision-making.
 <br>
 
 ---
-
 ## 📈 Conclusion
 
 - Random Forest outperformed other models on balanced data.
